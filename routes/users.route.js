@@ -10,9 +10,8 @@ router.get('/all', userController.getAllUsers);
 router.get("/random", userController.getRandomUser);
 
 router.post("/save", userController.seaveAnUser);
-router.patch("/update", (req, res) => {
-    res.send("update clicked")
-});
+
+router.patch("/update", userController.updateAnUser);
 router.patch("/bulk-update", (req, res) => {
     res.send("bulk-update clicked")
 });

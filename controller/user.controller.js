@@ -39,7 +39,25 @@ module.exports.seaveAnUser = async (req, res, next) => {
         err ? res.status(401).send("Unauthorized Action") : res.status(200).send("User Added successfully !!!")
     })
 };
-
+// Update an user 
+module.exports.updateAnUser = async (req, res) => {
+    const updateData = req.body;
+    const users = await JSON.parse(fs.readFileSync("users.json"));
+    let userIndex = users.findIndex((obj) => obj.id == updateData.id);
+    const props = Object.keys(updateData);
+    for (const prop of props) {
+        users[userIndex][prop] = updateData[prop];
+    }
+    fs.writeFile("users.json", JSON.stringify(users), (err) => {
+        if (err) {
+            res.send("unable to save data")
+        } else {
+            res.status(200).send(
+                { meassge: "updated data successfully", data: users }
+            )
+        }
+    })
+}
 
 // Delete an user
 module.exports.deleteAnUser = async (req, res) => {
