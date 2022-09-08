@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "photoUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+        "age": 27,
+        "name": "Marguerite Blevins",
+        "gender": "female",
+        "contact": "+1 (901) 532-3849",
+        "address": "750 Indiana Place, Cliff, Indiana, 4855"
+    },
+    {
+        "id": "2",
+        "photoUrl": "https://randomuser.me/api/portraits/women/2.jpg",
+        "age": 20,
+        "name": "Natasha Mccall",
+        "gender": "female",
+        "contact": "+1 (964) 473-2969",
+        "address": "471 Conklin Avenue, Aurora, Nebraska, 3315"
+    },
+    {
+        "id": "3",
+        "photoUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+        "age": 28,
+        "name": "Candice Pacheco",
+        "gender": "female",
+        "contact": "+1 (805) 415-3351",
+        "address": "786 Chase Court, Collins, Maryland, 8889"
+    },
+    {
+        "id": "4",
+        "photoUrl": "https://randomuser.me/api/portraits/women/4.jpg",
+        "age": 39,
+        "name": "Evelyn Santos",
+        "gender": "female",
+        "contact": "+1 (948) 569-3976",
+        "address": "794 Etna Street, Drummond, West Virginia, 3516"
+    },
+    {
+        "id": "5",
+        "photoUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+        "age": 26,
+        "name": "Margo Mclaughlin",
+        "gender": "female",
+        "contact": "+1 (837) 565-2185",
+        "address": "809 Bergen Place, Enoree, Northern Mariana Islands, 8275"
+    },
+    {
+        "id": "6",
+        "photoUrl": "https://randomuser.me/api/portraits/women/6.jpg",
+        "age": 32,
+        "name": "Deanna Bryan",
+        "gender": "female",
+        "contact": "+1 (801) 584-2027",
+        "address": "138 Carroll Street, Grantville, Oklahoma, 8276"
+    },
+    {
+        "id": "7",
+        "photoUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+        "age": 35,
+        "name": "Jordan Ortiz",
+        "gender": "female",
+        "contact": "+1 (924) 599-3722",
+        "address": "167 Temple Court, Blandburg, Hawaii, 1242"
+    },
+    {
+        "id": "8",
+        "photoUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+        "age": 33,
+        "name": "Guthrie Wilkinson",
+        "gender": "male",
+        "contact": "+1 (881) 567-2678",
+        "address": "838 Raleigh Place, Ypsilanti, Pennsylvania, 5398"
+    },
+    {
+        "id": "9",
+        "photoUrl": "https://randomuser.me/api/portraits/men/5.jpg",
+        "age": 31,
+        "name": "Oneal Holt",
+        "gender": "male",
+        "contact": "+1 (977) 453-3144",
+        "address": "646 Merit Court, Gloucester, Federated States Of Micronesia, 2459"
+    },
+    {
+        "id": "10",
+        "photoUrl": "https://randomuser.me/api/portraits/women/2.jpg",
+        "age": 29,
+        "name": "Wilda Aguirre",
+        "gender": "female",
+        "contact": "+1 (878) 412-3151",
+        "address": "189 Herkimer Court, Florence, Montana, 1439"
+    }
+]
