@@ -7,10 +7,8 @@ const router = express.Router();
 console.log(router)
 router.get('/all', userController.getAllUsers);
 
-router.get("/random", (req, res) => {
+router.get("/random", userController.getRandomUser);
 
-    res.send("random clicked")
-});
 router.post("/save", (req, res) => {
     res.send("save clicked")
 });

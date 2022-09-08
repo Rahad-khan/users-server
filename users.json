@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "photoUrl": "https://randomuser.me/api/portraits/women/1.jpg",
         "age": 27,
         "name": "Marguerite Blevins",
@@ -9,7 +9,7 @@
         "address": "750 Indiana Place, Cliff, Indiana, 4855"
     },
     {
-        "id": "2",
+        "id": 2,
         "photoUrl": "https://randomuser.me/api/portraits/women/2.jpg",
         "age": 20,
         "name": "Natasha Mccall",
@@ -18,7 +18,7 @@
         "address": "471 Conklin Avenue, Aurora, Nebraska, 3315"
     },
     {
-        "id": "3",
+        "id": 3,
         "photoUrl": "https://randomuser.me/api/portraits/women/3.jpg",
         "age": 28,
         "name": "Candice Pacheco",
@@ -27,7 +27,7 @@
         "address": "786 Chase Court, Collins, Maryland, 8889"
     },
     {
-        "id": "4",
+        "id": 4,
         "photoUrl": "https://randomuser.me/api/portraits/women/4.jpg",
         "age": 39,
         "name": "Evelyn Santos",
@@ -36,7 +36,7 @@
         "address": "794 Etna Street, Drummond, West Virginia, 3516"
     },
     {
-        "id": "5",
+        "id": 5,
         "photoUrl": "https://randomuser.me/api/portraits/women/5.jpg",
         "age": 26,
         "name": "Margo Mclaughlin",
@@ -45,7 +45,7 @@
         "address": "809 Bergen Place, Enoree, Northern Mariana Islands, 8275"
     },
     {
-        "id": "6",
+        "id": 6,
         "photoUrl": "https://randomuser.me/api/portraits/women/6.jpg",
         "age": 32,
         "name": "Deanna Bryan",
@@ -54,7 +54,7 @@
         "address": "138 Carroll Street, Grantville, Oklahoma, 8276"
     },
     {
-        "id": "7",
+        "id": 7,
         "photoUrl": "https://randomuser.me/api/portraits/women/7.jpg",
         "age": 35,
         "name": "Jordan Ortiz",
@@ -63,7 +63,7 @@
         "address": "167 Temple Court, Blandburg, Hawaii, 1242"
     },
     {
-        "id": "8",
+        "id": 8,
         "photoUrl": "https://randomuser.me/api/portraits/men/6.jpg",
         "age": 33,
         "name": "Guthrie Wilkinson",
@@ -72,7 +72,7 @@
         "address": "838 Raleigh Place, Ypsilanti, Pennsylvania, 5398"
     },
     {
-        "id": "9",
+        "id": 9,
         "photoUrl": "https://randomuser.me/api/portraits/men/5.jpg",
         "age": 31,
         "name": "Oneal Holt",
@@ -81,7 +81,7 @@
         "address": "646 Merit Court, Gloucester, Federated States Of Micronesia, 2459"
     },
     {
-        "id": "10",
+        "id": 10,
         "photoUrl": "https://randomuser.me/api/portraits/women/2.jpg",
         "age": 29,
         "name": "Wilda Aguirre",
