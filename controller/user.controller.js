@@ -1,5 +1,7 @@
 const fs = require('fs');
 
+const users = JSON.parse(fs.readFileSync("users.json"));
+
 module.exports.getAllUsers = (req, res, next) => {
     const { limit } = req.query;
     fs.readFile("users.json", (err, data) => {
@@ -48,6 +50,33 @@ module.exports.updateAnUser = async (req, res) => {
     for (const prop of props) {
         users[userIndex][prop] = updateData[prop];
     }
+    fs.writeFile("users.json", JSON.stringify(users), (err) => {
+        if (err) {
+            res.send("unable to save data")
+        } else {
+            res.status(200).send(
+                { meassge: "updated data successfully", data: users }
+            )
+        }
+    })
+};
+
+// Bulk Update
+module.exports.bulkUpdate = async (req, res) => {
+    const multipleUser = req.body;
+    multipleUser.map(singleUser => {
+        const { id } = singleUser;
+        if (id) {
+            const userIndex = users.findIndex((user) => user.id == id);
+            const props = Object.keys(singleUser);
+            console.log(userIndex)
+            for (const prop of props) {
+                users[userIndex][prop] = singleUser[prop]
+            }
+            console.log(users);
+
+        }
+    })
     fs.writeFile("users.json", JSON.stringify(users), (err) => {
         if (err) {
             res.send("unable to save data")

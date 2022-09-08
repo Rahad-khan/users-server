@@ -9,6 +9,15 @@
         "address": "750 Indiana Place, Cliff, Indiana, 4855"
     },
     {
+        "id": 2,
+        "photoUrl": "https://randomuser.me/api/portraits/women/2.jpg",
+        "age": 20,
+        "name": "Natasha Mccall",
+        "gender": "female",
+        "contact": "+1 (964) 473-2969",
+        "address": "471 Conklin Avenue, Aurora, Nebraska, 3315"
+    },
+    {
         "id": 3,
         "photoUrl": "https://randomuser.me/api/portraits/women/3.jpg",
         "age": 28,
@@ -30,16 +39,16 @@
         "id": 5,
         "photoUrl": "https://randomuser.me/api/portraits/women/5.jpg",
         "age": 26,
-        "name": "Rahad",
-        "gender": "Male",
+        "name": "Margo Mclaughlin",
+        "gender": "female",
         "contact": "+1 (837) 565-2185",
         "address": "809 Bergen Place, Enoree, Northern Mariana Islands, 8275"
     },
     {
         "id": 6,
         "photoUrl": "https://randomuser.me/api/portraits/women/6.jpg",
-        "age": 32,
-        "name": "Deanna Bryan",
+        "age": 22,
+        "name": "Lily",
         "gender": "female",
         "contact": "+1 (801) 584-2027",
         "address": "138 Carroll Street, Grantville, Oklahoma, 8276"
@@ -60,7 +69,7 @@
         "name": "Guthrie Wilkinson",
         "gender": "male",
         "contact": "+1 (881) 567-2678",
-        "address": "838 Raleigh Place, Ypsilanti, Pennsylvania, 5398"
+        "address": "kamarpara"
     },
     {
         "id": 9,
