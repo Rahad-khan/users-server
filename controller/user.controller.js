@@ -27,4 +27,31 @@ module.exports.getRandomUser = (req, res, next) => {
             next();
         }
     })
+};
+
+module.exports.seaveAnUser = async (req, res, next) => {
+    const users = await JSON.parse(fs.readFileSync("users.json"));
+    const newUserData = req.body;
+    const newUser = { id: users.length + 1, ...newUserData };
+    users.push(newUser);
+    console.log(newUser, users)
+    fs.writeFile("users.json", JSON.stringify(users), (err) => {
+        err ? res.status(401).send("Unauthorized Action") : res.status(200).send("User Added successfully !!!")
+    })
+};
+
+
+// Delete an user
+module.exports.deleteAnUser = async (req, res) => {
+    const { id } = req.query;
+    const users = await JSON.parse(fs.readFileSync("users.json"));
+    const exist = users.find(user => user.id === +id);
+    if (exist) {
+        const rest = users.filter(user => user.id !== +id);
+        fs.writeFile("users.json", JSON.stringify(rest), (err) => {
+            err ? res.send("something going wrong") : res.status(200).send({ data: rest });
+        })
+    } else {
+        res.status(404).send("Id isn't available");
+    }
 }

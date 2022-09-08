@@ -9,18 +9,14 @@ router.get('/all', userController.getAllUsers);
 
 router.get("/random", userController.getRandomUser);
 
-router.post("/save", (req, res) => {
-    res.send("save clicked")
-});
+router.post("/save", userController.seaveAnUser);
 router.patch("/update", (req, res) => {
     res.send("update clicked")
 });
 router.patch("/bulk-update", (req, res) => {
     res.send("bulk-update clicked")
 });
-router.delete("/delete", (req, res) => {
-    res.send("delete clicked")
-});
+router.delete("/delete", userController.deleteAnUser);
 
 
 module.exports = router;
