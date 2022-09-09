@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 const fs = require('fs');
 const userRouter = require('./routes/users.route');
 
@@ -14,19 +14,7 @@ app.get('/', (req, res) => {
     res.send("Server Running");
 });
 
-app.use('/user', userRouter)
-
-// app.get('/user/all', (req, res) => {
-//     fs.readFile("users.json", (err, data) => {
-//         if (err) {
-//             res.write("Something Wrong !!!");
-//             res.end()
-//         } else {
-//             const users = JSON.parse(data);
-//             res.send(users)
-//         }
-//     })
-// })
+app.use('/user', userRouter);
 
 console.log(app)
 app.listen(port, () => {
